@@ -1,6 +1,7 @@
 import random
 import time
 
+# start
 for i in range(5):
     r = random.randint(0, 1)
     time.sleep(1)
@@ -13,3 +14,4 @@ for i in range(5):
     if r == "Есть выстрел":
         print("Игра окончена!")
         exit()
+# end
